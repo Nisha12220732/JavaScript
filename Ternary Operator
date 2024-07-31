@@ -1,0 +1,2 @@
+let a =18;
+a>=18 ? console.log("Can Vote") : console.log("Cannot Vote");
