@@ -1,0 +1,16 @@
+let fullname= "Nisha";
+let a = 2;
+let n = 2.2;
+let b = true;
+let c = null;
+let d = undefined;
+let e = Symbol("abc");
+let f = BigInt("123");
+console.log(typeof fullname);
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof f);
+console.log(typeof n);
