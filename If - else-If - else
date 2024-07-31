@@ -1,0 +1,13 @@
+let a = 10;
+if(a < 18){
+    console.log("Young age ");
+}
+else if( a >= 18 && a<=35){
+    console.log("Adult");
+}
+else if( a >= 36 && a<=60){
+    console.log("Middle Age");
+}
+else{
+    console.log("Old Age");
+}
