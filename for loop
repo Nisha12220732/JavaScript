@@ -1,0 +1,6 @@
+let message = prompt("Enter the message you want to print: ");
+let n = prompt("Enter number of times you want to print: ");
+for(let i = 0; i<n;i++){
+    console.log(message , i);
+}
+console.log("Loop ends here");
