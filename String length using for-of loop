@@ -1,0 +1,8 @@
+alert("For-of loop is used to iterate over strings or arrays");
+let str = prompt("Enter the string: ");
+let size =0;
+for(let i of str){
+    console.log("i =", i);
+    size++;
+}
+console.log("size is: ",size);
