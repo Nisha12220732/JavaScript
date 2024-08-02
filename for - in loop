@@ -1,0 +1,20 @@
+const student = {
+     name: "Rahul",
+     class: 7,
+     cgpa: 8.1,
+     rollno: 10,
+     isPass: true,
+     address: "Rajasthan"
+};
+
+console.log(student);
+console.log( "class is",student["class"]);
+console.log("name is",student.name);
+console.log("For iterating over keys");
+for(let i in student){
+    console.log(i);
+}
+console.log("For iterating over values");
+for(let i in student){
+    console.log(student[i]);
+}
