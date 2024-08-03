@@ -1,0 +1,7 @@
+console.log("Template Literals is a type of String Literal where String Interpolation takes place.\n String interpolation is adding placeholders in Strings");
+let name = prompt("Enter name: ");
+let age = prompt("Enter age: ");
+let str = `Hlo my name is ${name} and age is ${age}`;
+console.log(str);
+console.log(`Hlo my name is ${name} and age is ${age}`);
+
