@@ -1,0 +1,23 @@
+console.log("This is a program to perform functionalities on Strings");
+let str = prompt("Enter Stirng: ");
+for(let i = 0;i<str.length;i++){
+    console.log(str[i]);
+}
+console.log("Length of string is: ",str.length);
+console.log("Original String is:",str);
+console.log("String in UpperCase is:",str.toUpperCase());
+console.log("String in LowerCase is:",str.toLowerCase());
+console.log("Original String remains the same");
+let str2  = "   My name is Khan    ";
+console.log("Original String is:",str2);
+console.log("String after using trim method is:",str2.trim());
+
+console.log("Using Slice in String",str.slice(3));
+console.log(`Using slice in String ${str.slice(5,8)}`);
+console.log(`Using concant in the String ${str.concat("abcdef")}` );
+console.log("Using replace in String",str.replace("he","ho"));
+console.log("Using replaceAll in String",str.replaceAll("he","ho"));
+console.log("Using the CharAt function",str.charAt(6));
+
+
+
