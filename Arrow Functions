@@ -1,0 +1,11 @@
+const sum =(a,b,c) =>{return a+b+c};
+
+const mul = (a,b) =>{console.log(a*b);};
+
+const printhello = () => {console.log("Print Hello");};
+
+let val = sum(465,345,6345);
+console.log(val);
+mul(10,45);
+printhello();
+console.log(val);
