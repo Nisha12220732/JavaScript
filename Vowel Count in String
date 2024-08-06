@@ -1,0 +1,29 @@
+function vowelCount(s){
+    let count = 0;
+    for(let i=0;i<s.length;i++){
+        if(s[i] === 'a' || s[i] === 'e' ||s[i] === 'i' ||s[i] === 'o' ||s[i] === 'u'){
+            count++;
+        }
+    }
+    return count;
+}
+
+const arrowVowelCount = (s) => {
+    let count = 0;
+    for(let i=0;i<s.length;i++){
+        if(s[i] === 'a' || s[i] === 'e' ||s[i] === 'i' ||s[i] === 'o' ||s[i] === 'u'){
+            count++;
+        }
+    }
+    return count;
+}
+
+let str = prompt("Enter the string: ");
+let count =  vowelCount(str);
+console.log(`Number of Vowels in the String is ${count}`);
+console.log(`Number of Consonents in the String is ${str.length - count}`);
+let count2 =  arrowVowelCount(str);
+console.log(`Number of Vowels in the String is ${count2}`);
+console.log(`Number of Consonents in the String is ${str.length - count2}`);
+
+
