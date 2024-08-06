@@ -1,0 +1,21 @@
+function func(){
+    console.log("Hello kemchooo!!");
+    console.log("MAJA maa??");
+    console.log("Khaana khaakar jaana haa");
+}
+
+func();
+func();
+func(); 
+
+function sum(x,y){
+    console.log(x+y);
+    return x+y;
+}
+
+sum(45,60);
+sum(76,24);
+sum(45,60);
+sum(76,24);
+let ans = sum(345,456);
+console.log(ans);
