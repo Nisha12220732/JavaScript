@@ -1,0 +1,14 @@
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+//Remove First company from array
+companies.shift();
+console.log(companies);
+
+//Remove Uber and OLA in its place
+let idx = companies.indexOf("Uber");
+companies[idx] = "Ola";
+console.log(companies);
+
+//Add amazon at the end
+companies.push("Amazon");
+console.log(companies);
