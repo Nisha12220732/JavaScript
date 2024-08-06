@@ -1,0 +1,63 @@
+alert("Arrays in javascript");
+let marks = [45,46,43,40,35,49];
+console.log("Arrays:",marks);
+console.log("Length of Arrays:",marks.length);
+console.log("Type of array:",typeof marks);
+for(let i =0;i<marks.length;i++){
+    console.log(marks[i]);
+}
+console.log("If we try to print an index of array which do not exist it print - undefined");
+console.log(marks[8]);
+
+for(let i of marks){
+    console.log(i);
+}
+
+let cities = ["Delhi","Pune","Alwar","Noida","Jaipur","Ajmer","Pushkar","Chennai"];
+console.log(cities);
+for(let i of cities){
+    console.log(i.toUpperCase() , i.toLowerCase());
+}
+
+cities.push("Bangalore");
+cities.push("Udaipur");
+console.log(cities);
+console.log(cities.pop());
+console.log(cities);
+
+let avengers = ["Antman" , "Batman","Spiderman","Thor","Hulk","Dr.Strange"];
+console.log(avengers);
+let indianHeros = ["Shaktimaan" , "Krissh"];
+console.log(indianHeros);
+let heros = avengers.concat(indianHeros);
+console.log(heros);
+
+heros.unshift("Marvel","Abc");
+heros.unshift("Marvel");
+console.log(heros);
+
+let deletedHero = heros.shift();
+console.log(heros);
+console.log(deletedHero);
+
+console.log(heros.slice(2,6));
+console.log(heros.slice(2));
+
+heros.splice(4,2,"Ironman","DC","HEllo","Hey");
+console.log(heros);
+
+//Add Element at index 2
+heros.splice(2,0,"InserterElement");
+
+//delete element at index 1
+heros.splice(1,1);
+
+//Replace element at index 4
+heros.splice(4,1,"ReplacedElement");
+
+// To delete every element after some index
+heros.splice(7);
+
+console.log(heros);
+
+ 
