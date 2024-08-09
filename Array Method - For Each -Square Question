@@ -1,0 +1,16 @@
+let arr = [2,4,5,7,10,3];
+
+//for_each loop 
+//Callback function
+//Higher Order function
+
+arr.forEach(function square(val){
+    console.log(val*val);
+});
+
+//Arrow function
+arr.forEach((val)=> {console.log(val*val);});
+
+//Passing direct function in the function
+let calSq = (val)=> {console.log(val*val);};
+arr.forEach(calSq);
