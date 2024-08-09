@@ -1,0 +1,18 @@
+let arr = [11,21,31,41,51];
+// Jo callback function hai (andar waala function) use humai call nahi karna hota use
+// forEach apne aap call karta hai har element ke liye alag se
+
+
+arr.forEach(function fun(val){
+    console.log(val);
+}
+);
+
+
+// We use foreach when we need to perform some work for each element for array 
+
+// It ha three parameters value, index and whole Array
+
+arr.forEach((val,idx,arr) => {console.log( val*10 , idx,arr);});
+
+// For each can only be used for array not for any other object
