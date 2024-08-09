@@ -1,0 +1,14 @@
+alert("Array Method Map");
+let arr = [23,45,4,46,67,56,44];
+
+//Here we are using Map function to print array 
+arr.map(function func(val){
+    console.log(val);
+});
+
+// We can also use map method to print a new array by returning a value
+let squareArray = arr.map((val) => {return(val*val);});
+console.log(squareArray);
+console.log(arr);
+
+//Map is used to create some new array using some returned value based on some existing value
