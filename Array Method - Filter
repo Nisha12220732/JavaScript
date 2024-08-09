@@ -1,0 +1,19 @@
+alert("This is the Filter method of Array:");
+let arr = [3,4,5,7,8,10,34,2,3,56,87,95,92,90,30,50,60,63];
+
+
+//Filter method of array is used to filter out a new array on the basis of some conditions
+let evenArray = arr.filter(function even(val){
+    return val%2==0;
+}
+);
+console.log(evenArray);
+console.log(arr);
+
+//Using arrow function
+let evenArr = arr.filter((val) => {
+    return val%2==0;
+}
+);
+console.log(evenArr);
+console.log(arr);
