@@ -1,0 +1,19 @@
+let arr = [3,45,6,78,98,67,56,34,33,23,56,76,34,23,11,28,39,40,24,57,59,70,80,90,100];
+
+console.log(`Original Array is: ${arr}`);
+
+console.log(`Array of even numbers: `);
+let evenArr = arr.filter((val) => {return val%2 === 0;});
+console.log(evenArr);
+
+console.log(`Array of odd numbers: `);
+let oddArr = arr.filter((val) => {return val%2 != 0;});
+console.log(oddArr);
+
+console.log(`Array of Elements Greater than 25: `);
+let new_arr1 = arr.filter((val) => {return val>=25;});
+console.log(new_arr1);
+
+console.log(`Array of Elements smaller than 25: `);
+let new_arr2 = arr.filter((val) => {return val<=25;});
+console.log(new_arr2);
