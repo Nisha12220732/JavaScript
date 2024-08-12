@@ -1,0 +1,10 @@
+// Return single value after operations from array
+let arr = [1,2,3,4];
+// We are passing result and value of current element in the callback function
+// and we are getting result in return statement 
+
+const output  = arr.reduce((res,current_value) => {return res + current_value;});
+console.log(output);
+
+// We use arr.reduce when we need to find a single value of or from array
+// For eg. - largest , smallest, sum, product etc...
