@@ -1,0 +1,9 @@
+let arr = [23,12,34,645,32,12,466,34,4677,23,41,11,2,20003];
+
+let res = arr.reduce((min,val) =>
+{
+    if(min <= val) return min;
+    return val;
+});
+
+console.log(res);
